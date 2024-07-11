@@ -18,7 +18,8 @@ Steps:
 	
 
 # Results:
-RQ1.ipynb contains results for RQ1 and RQ2.ipynb contains results for RQ2
+### Downalod Raw result data for each RQ [here](https://drive.google.com/drive/folders/1focAA1vQ-N31YaMgxG9nGzzgBgbN_QiA?usp=sharing) and extract each RQ result to respective folders. After extraction there should be "hamiltonian_result" folder in each RQ folder.
+RQ1.ipynb contains processed results for RQ1 and RQ2.ipynb contains results for RQ2
 
 # Evaluate Research Questions:
 ### To Re-Evaluate RQ1 on new data

@@ -1,0 +1,15 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg qregless[3];
+creg cregless[6];
+y qregless[2];
+cp(pi/2) qregless[2],qregless[1];
+h qregless[1];
+cp(pi/4) qregless[2],qregless[0];
+cp(pi/2) qregless[1],qregless[0];
+h qregless[0];
+swap qregless[0],qregless[2];
+barrier qregless[0],qregless[1],qregless[2];
+measure qregless[0] -> cregless[3];
+measure qregless[1] -> cregless[4];
+measure qregless[2] -> cregless[5];
